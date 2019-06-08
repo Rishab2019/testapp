@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/visitor1"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="417dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="398dp"
+        android:layout_marginBottom="7dp"
+        android:inputType="text"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="217dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="172dp"
+        android:background="#F5F2F2"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile"
+        tools:visibility="visible" />
+
+</android.support.constraint.ConstraintLayout>
